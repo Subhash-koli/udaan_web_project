@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Udaan India Foundation is committed to empowering underprivileged children through education and skill development initiatives."
+    />
+    <meta
+      name="keywords"
+      content="Udaan India Foundation, education, empowerment, skill development"
+    />
+    <meta name="author" content="Udaan India Foundation" />
+    <title>Udaan India Foundation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header class="main-header">
+        <div class="logo">
+          <img src="logo (2).png" alt="Udaan Logo" />
+          <h1>Udaan India Foundation</h1>
+        </div>
+        <div
+          class="menu-toggle"
+          id="mobile-menu"
+          aria-label="Toggle navigation menu"
+        >
+          <i class="fas fa-bars"></i>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home" aria-label="Navigate to Home">Home</a></li>
+            <li>
+              <a href="#about" aria-label="Navigate to About Us">About Us</a>
+            </li>
+            <li>
+              <a href="#courses" aria-label="Navigate to Courses">Courses</a>
+            </li>
+            <li>
+              <a href="#gallery" aria-label="Navigate to Gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#contact" aria-label="Navigate to Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <section class="hero fade-in" id="home">
+          <div class="logo">
+            <img src="logo (2).png" alt="Udaan Big Logo" />
+          </div>
+          <div class="hero-content">
+            <h2>Empowering Lives Through Education</h2>
+            <p>
+              Join us in our mission to create opportunities for underprivileged
+              children.
+            </p>
+            <button
+              onclick="location.href='#about'"
+              aria-label="Learn more about us"
+            >
+              Learn More
+            </button>
+            <button
+              onclick="location.href='#courses'"
+              aria-label="Explore our courses"
+            >
+              Join Courses
+            </button>
+          </div>
+        </section>
+
+        <section id="about" class="content-section slide-in">
+          <article>
+            <h2>About Us</h2>
+            <p>
+              Udaan India Foundation is a not-for-profit organization committed
+              to the holistic development of underprivileged children. We aim to
+              provide quality education and skill-building opportunities to
+              empower children and help them achieve their dreams.
+            </p>
+          </article>
+        </section>
+
+        <section id="courses" class="content-section grid-layout">
+          <h2>Courses</h2>
+          <div class="courses-container">
+            <div class="course">
+              <img src="course1.jpg" alt="Basic Computer Course" />
+              <h3>Basic Computer</h3>
+              <p>
+                Learn the fundamentals of computers, presentations, and soft
+                skills.
+              </p>
+            </div>
+            <div class="course">
+              <img src="course2.jpg" alt="Advanced Word and Excel Course" />
+              <h3>Advance Word/Excel</h3>
+              <p>
+                Master advanced skills in Word and Excel for professional use.
+              </p>
+            </div>
+            <div class="course">
+              <img src="course3.jpg" alt="Basic English Speaking Course" />
+              <h3>Prep (Basic English Speaking)</h3>
+              <p>Improve your English communication skills with this course.</p>
+            </div>
+            <div class="course">
+              <img src="course4.jpg" alt="Advanced English Speaking Course" />
+              <h3>YUVA (Advance English Speaking)</h3>
+              <p>Enhance your fluency and confidence in spoken English.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="gallery" class="content-section masonry-grid">
+          <h2>Gallery</h2>
+          <div class="gallery">
+            <img
+              src=".\image\gallery1.JPG"
+              alt="Children participating in a workshop"
+            />
+            <img src=".\image\gallery1.JPG" alt="Students attending a class" />
+            <img
+              src=".\image\gallery1.JPG"
+              alt="Volunteers interacting with children"
+            />
+            <img src=".\image\gallery1.JPG" alt="Gallery Image 3" />
+            <img src=".\image\gallery1.JPG" alt="Gallery Image 3" />
+            <img src=".\image\gallery1.JPG" alt="Gallery Image 3" />
+          </div>
+        </section>
+
+        <section id="contact" class="content-section form-container">
+          <h2>Contact Us</h2>
+          <p>Have questions or want to get involved? Reach out to us!</p>
+          <form role="form">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="main-footer">
+        <p>&copy; 2025 Udaan India Foundation. All Rights Reserved.</p>
+        <p>
+          Follow us on:
+          <a href="#" aria-label="Visit our Facebook page">Facebook</a> |
+          <a href="#" aria-label="Visit our Instagram page">Instagram</a> |
+          <a href="#" aria-label="Visit our Twitter page">Twitter</a>
+        </p>
+        <button
+          id="back-to-top"
+          onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+          aria-label="Back to top"
+        >
+          ↑
+        </button>
+      </footer>
+    </div>
+
+    <script src="./js/main.js" type="module"></script>
+    <script>
+      const mobileMenu = document.getElementById("mobile-menu");
+      const navLinks = document.querySelector(".nav-links");
+      mobileMenu.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
